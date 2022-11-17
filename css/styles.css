@@ -1,0 +1,222 @@
+/* NAVBAR */
+
+.navbar-toggler-icon {
+    background-color: #6B728E;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+/* TITLE */
+
+.firstbox{
+    position: relative;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.iphone{
+    width: 300px;
+    transform: rotate(5deg);
+    padding-bottom: 70px;
+}
+
+.iphone:hover{
+    transform: rotate(-5deg);
+    transition-duration: 1s;
+}
+
+.download-button{
+    margin-right: 15px;
+}
+
+/* FEATURES */
+
+.mocups-section{
+    text-align: center;
+    background-color: #212529;
+    color: #FEFBF6;
+    padding-bottom: 100px;
+}
+
+.title{
+    background-color: #212529;
+    color: #FEFBF6;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    padding-left: 12px;
+    padding-top: 100px;
+  
+}
+
+.features{
+    background-color: #212529;
+    color: #FEFBF6;
+    text-align: center;
+    padding: 7% 15% 7% 15%;
+}
+
+.feature-box-1{
+    position: relative;
+    right: 40px;
+}
+.feature-box-2{
+    position: relative;
+    right: 60px;
+}
+
+.feature-box-3{
+    position: relative;
+    left: 20px;
+}
+
+.icon{
+    color: #7978FF;
+    margin-bottom: 10px;
+}
+
+.icon:hover{
+    color: #B6E388;
+    transition-duration: 0.3s;
+}
+
+/* MOCUPS */
+
+.start-img{
+    width: 250px;
+}
+
+.pick-img{
+    width: 250px;
+}
+
+.recipe-img{
+    width: 250px;
+}
+
+.quickdesc{
+    padding-bottom: 50px;
+}
+
+.mockups{
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+p{
+    color: #B2B2B2;
+}
+
+.start-img:hover{
+    transform: scale(110%);
+    transition-duration: 1s;
+}
+
+.pick-img:hover{
+    transform: scale(110%);
+    transition-duration: 1s;
+}
+
+.recipe-img:hover{
+    transform: scale(110%);
+    transition-duration: 1s;
+}
+
+/* Food samples */
+
+.look{
+    margin-bottom: 40px;
+}
+.food-samples{
+    background-color: #212529;
+    color: #FEFBF6;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.burger{
+    width: 350px;
+    height: 200px;
+    border-radius: 8%;
+}
+
+.pancakes{
+    width: 350px;
+    height: 200px;
+    border-radius: 8%;
+}
+
+.spaghetti{
+    width: 350px;
+    height: 200px;
+    border-radius: 8%;
+}
+
+.dumplings{
+    width: 350px;
+    height: 200px;
+    border-radius: 8%;
+}
+
+.salmon{
+    width: 350px;
+    height: 200px;
+    border-radius: 8%;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    left: 400px;
+}
+
+.carousel-control-next-icon{
+    position: relative;
+    right: 400px;
+}
+
+/* PRICING */
+
+#pricing{
+    background-color: #212529;
+    color: #FEFBF6;
+}
+.wefree{
+    text-align: center;
+}
+.card{
+    width:350px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.card-header{
+    font-size: 25px;
+}
+.card:hover{
+    transform: scale(110%);
+    transition-duration: 1s;
+}
+.card1{
+    flex-wrap: wrap;
+    position: relative;
+    left: 350px;
+}
+
+.btn{
+    margin-top: 8px;
+}
+#cta{
+    background-color: #212529;
+    color: #FEFBF6;
+}
+
+#footer{
+    background-color: #212529;
+    color: #FEFBF6;
+}
+
+
+
+
+
+
+
