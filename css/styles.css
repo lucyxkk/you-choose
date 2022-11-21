@@ -1,14 +1,32 @@
-/* NAVBAR */
-
-.navbar-toggler-icon {
-    background-color: #6B728E;
+body{
+    background-color: #212529 !important;
 }
+/* NAVBAR */
 
 .nav-item{
     font-size: 20px;
 }
 
+.container-fluid{
+    padding-left: 0px !important; 
+    padding-right: 0px !important;
+} 
+
+.navbar-brand{
+    font-size: 30px !important;
+}
+
 /* TITLE */
+
+#title{
+    background-color: #212529;
+    color: #FEFBF6;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    padding-left: 12px;
+    padding-top: 100px;
+  
+}
 
 .firstbox{
     position: relative;
@@ -20,6 +38,9 @@
     width: 300px;
     transform: rotate(5deg);
     padding-bottom: 70px;
+    transition-duration: 1s;
+    position: relative;
+    z-index: 1;
 }
 
 .iphone:hover{
@@ -31,49 +52,25 @@
     margin-right: 15px;
 }
 
+.row{
+    --bs-gutter-x: 0rem !important;
+}
+
 /* FEATURES */
 
-.mocups-section{
-    text-align: center;
-    background-color: #212529;
+.container h2{
     color: #FEFBF6;
-    padding-bottom: 100px;
 }
 
-.title{
-    background-color: #212529;
-    color: #FEFBF6;
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.5;
-    padding-left: 12px;
-    padding-top: 100px;
-  
-}
-
-.features{
-    background-color: #212529;
-    color: #FEFBF6;
-    text-align: center;
-    padding: 7% 15% 7% 15%;
-}
-
-.feature-box-1{
-    position: relative;
-    right: 40px;
-}
-.feature-box-2{
-    position: relative;
-    right: 60px;
-}
-
-.feature-box-3{
-    position: relative;
-    left: 20px;
+.container{
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .icon{
     color: #7978FF;
     margin-bottom: 10px;
+    transition-duration: 0.5s;
 }
 
 .icon:hover{
@@ -83,16 +80,16 @@
 
 /* MOCUPS */
 
-.start-img{
-    width: 250px;
+#mocups-section{
+    text-align: center;
+    background-color: #212529;
+    color: #FEFBF6;
+    padding-bottom: 100px;
 }
 
-.pick-img{
+.phone-img{
     width: 250px;
-}
-
-.recipe-img{
-    width: 250px;
+    transition-duration: 1s;
 }
 
 .quickdesc{
@@ -128,42 +125,19 @@ p{
 .look{
     margin-bottom: 40px;
 }
-.food-samples{
+#food-samples{
     background-color: #212529;
     color: #FEFBF6;
     text-align: center;
     padding-bottom: 200px;
 }
 
-.burger{
+.food-img{
     width: 350px;
     height: 200px;
     border-radius: 8%;
 }
 
-.pancakes{
-    width: 350px;
-    height: 200px;
-    border-radius: 8%;
-}
-
-.spaghetti{
-    width: 350px;
-    height: 200px;
-    border-radius: 8%;
-}
-
-.dumplings{
-    width: 350px;
-    height: 200px;
-    border-radius: 8%;
-}
-
-.salmon{
-    width: 350px;
-    height: 200px;
-    border-radius: 8%;
-}
 .carousel-control-prev-icon{
     position: relative;
     left: 400px;
@@ -185,35 +159,97 @@ p{
 }
 .card{
     width:350px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin: 50px auto 100px;
+    float: none;
+    transition-duration: 1s;
+    
 }
-.card-header{
-    font-size: 25px;
+
+.card1{
+    margin-right: 10px !important;
 }
+
+.card2{
+    margin-left: 10px !important;
+}
+
 .card:hover{
     transform: scale(110%);
     transition-duration: 1s;
 }
-.card1{
-    flex-wrap: wrap;
+
+.card-header{
+    font-size: 25px;
+}
+
+.footer-button-1{
     position: relative;
-    left: 350px;
+    left: 15px;
+}
+
+.footer-button-2{
+    position: relative;
+    left: 15px;
 }
 
 .btn{
     margin-top: 8px;
 }
-#cta{
+
+/* Cta */
+
+.cta{
+    text-align: center;
     background-color: #212529;
     color: #FEFBF6;
 }
-
-#footer{
-    background-color: #212529;
-    color: #FEFBF6;
+.youchoose{
+    margin-bottom: 0%;
 }
 
+/* Social Media */
+#social-media{
+    text-align: center;
+    background-color: #212529;
+    color: #FEFBF6;
+    padding: 50px;
+}
+
+i{
+    text-decoration:none;
+    color: #FEFBF6;
+ }
+
+.icon-sm{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Footer */
+
+.footer{
+    text-align: center;
+    background-color: #212529;
+    color: #FEFBF6;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 1028px) {
+    .iphone {
+    
+        margin-top: 20px;
+        position: static;
+        transform: rotate(0);
+    }
+    .title{
+        text-align: center;
+    }
+
+    .card1 {
+        position: relative;
+        right: 130px;
+        
+    }
+}
 
 
 
